@@ -7,7 +7,7 @@ export const profile = {
   location: "Kurigram, Rangpur, Bangladesh",
   tagline: "I build full-stack web apps with React, Node.js and MongoDB.",
   photo:
-    "https://res.cloudinary.com/dwfet15kj/image/upload/v1791811411/emonlab_zwnde3.png",
+    "https://res.cloudinary.com/dwfet15kj/image/upload/v1791818021/portfolio_jgkizp.jpg",
   resume:
     "https://docs.google.com/document/d/1ZxKLtrgvVASvwlUk7rn68y8_T6z_VoTt0KLrfED5MH4/edit?usp=sharing",
   linkedin: "https://www.linkedin.com/in/md-emon-ali/",
@@ -28,8 +28,15 @@ export const projects = [
     stack: ["Next.js", "React", "CSS"],
     links: [
       // TODO: replace both links with your real portfolio repository and live site.
-      { label: "Live site", href: "https://your-portfolio-link.vercel.app", primary: true },
-      { label: "Source code", href: "https://github.com/nuruzzaman-emon/portfolio" },
+      {
+        label: "Live site",
+        href: "https://emon-portfolio-dev.vercel.app/",
+        primary: true,
+      },
+      {
+        label: "Source code",
+        href: "https://github.com/nuruzzaman-emon/portfolio",
+      },
     ],
   },
   {
@@ -37,10 +44,25 @@ export const projects = [
     title: "Book Courier",
     summary:
       "A book delivery and management platform. Readers browse, order and pay for books and track their orders. Librarians add books, and admins manage users and roles, each from their own dashboard.",
-    stack: ["React", "Tailwind CSS", "DaisyUI", "Node.js", "Express", "MongoDB", "Stripe"],
+    stack: [
+      "React",
+      "Tailwind CSS",
+      "DaisyUI",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Stripe",
+    ],
     links: [
-      { label: "Live site", href: "https://book-courier-c3864.web.app", primary: true },
-      { label: "Source code", href: "https://github.com/nuruzzaman-emon/book-courier2-client" },
+      {
+        label: "Live site",
+        href: "https://book-courier-c3864.web.app",
+        primary: true,
+      },
+      {
+        label: "Source code",
+        href: "https://github.com/nuruzzaman-emon/book-courier2-client",
+      },
     ],
   },
   {
@@ -48,10 +70,24 @@ export const projects = [
     title: "KrishLink",
     summary:
       "A marketplace that connects farmers directly with buyers. Farmers list their crops with price and quantity, and customers browse, filter and buy fresh produce.",
-    stack: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Firebase"],
+    stack: [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Firebase",
+    ],
     links: [
-      { label: "Live site", href: "https://krish-link.web.app/", primary: true },
-      { label: "Source code", href: "https://github.com/nuruzzaman-emon/krishlink-client" },
+      {
+        label: "Live site",
+        href: "https://krish-link.web.app/",
+        primary: true,
+      },
+      {
+        label: "Source code",
+        href: "https://github.com/nuruzzaman-emon/krishlink-client",
+      },
     ],
   },
   {
@@ -61,14 +97,40 @@ export const projects = [
       "A plant-themed web app with user sign-up and login, built to practice authentication in React.",
     stack: ["React", "Vite", "Firebase"],
     links: [
-      { label: "Live site", href: "https://greenest-plant-authentication.web.app/", primary: true },
-      { label: "Source code", href: "https://github.com/nuruzzaman-emon/greenest-plant-auth" },
+      {
+        label: "Live site",
+        href: "https://greenest-plant-authentication.web.app/",
+        primary: true,
+      },
+      {
+        label: "Source code",
+        href: "https://github.com/nuruzzaman-emon/greenest-plant-auth",
+      },
     ],
   },
 ];
 
 export const skills = [
-  { group: "Front end", items: ["React", "Tailwind CSS", "DaisyUI"] },
-  { group: "Back end", items: ["Node.js", "Express", "MongoDB"] },
-  { group: "Libraries and services", items: ["Stripe", "SweetAlert2"] },
+  {
+    group: "Front end",
+    items: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "DaisyUI",
+    ],
+  },
+  {
+    group: "Back end",
+    items: ["Node.js", "Express.js", "MongoDB", "MySQL", "JWT"],
+  },
+  {
+    group: "Libraries and services",
+    items: ["TanStack Query", "Firebase", "Stripe", "SweetAlert2"],
+  },
 ];
+
+

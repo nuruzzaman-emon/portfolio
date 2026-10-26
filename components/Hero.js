@@ -12,6 +12,9 @@ export default function Hero() {
         <p className="hero-role rise" style={{ "--d": "180ms" }}>{profile.role}</p>
         <p className="hero-tagline rise" style={{ "--d": "270ms" }}>{profile.tagline}</p>
         <div className="hero-actions rise" style={{ "--d": "360ms" }}>
+          <a className="btn btn-primary" href={"./mernStack.pdf"} download="Emon-resumi.pdf">
+            Download resume
+          </a>
           <a className="btn btn-primary" href={profile.resume} target="_blank" rel="noopener noreferrer">
             View resume
           </a>
