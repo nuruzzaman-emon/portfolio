@@ -56,7 +56,7 @@ export const projects = [
     links: [
       {
         label: "Live site",
-        href: "https://book-courier-c3864.web.app",
+        href: "https://book-courier2-client.vercel.app/",
         primary: true,
       },
       {
@@ -132,5 +132,3 @@ export const skills = [
     items: ["TanStack Query", "Firebase", "Stripe", "SweetAlert2"],
   },
 ];
-
-
